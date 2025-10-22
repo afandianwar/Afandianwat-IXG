@@ -1,0 +1,210 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>SMA Negeri 9 Cirebon</title>
+   <link rel="stylesheet" href="style.css">
+      <style>
+     /*hero section */
+     .tentang{
+       display:flex;
+       align-items:center;
+       justify-content: center;
+       max-width: 900px;
+       margin: auto;
+       background: white;
+       border-radius: 10px;
+       box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+       overflow:hidden;
+     }
+     .gambar{
+       flex: 1;
+     }
+     .gambar img{
+       width: 100%;
+       height: auto;
+       display: block;
+     }
+     .teks {
+     flex:1;
+     padding:30px;
+     }
+     .teks h2{
+       margin-top: 0;
+       font-size: 28px;
+       color:#555;
+       line-height: 1.6;
+     }
+     /*konten*/
+     main{
+       flex: 1;/*biar ngisi ruang kosong*/
+       padding: 20px;
+       text-align: center;
+     }
+     footer{
+       background:#0d47a1;
+       color: white ;
+       text-align: center;
+       padding: 10px;
+       margin-top: 20px;
+     }
+     /*Hero section*/
+     .container{
+     display:flex;
+     max-width: 900px;
+     margin: auto;
+     background: white;
+     border-radius: 10px;
+     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+     overflow: hidden;
+     }
+     /*Kolom kiri */
+     .kiri{
+       flex: 1;
+       padding: 30px;
+       border-right: 1px solid #eee;
+     }
+     .kiri h2 {
+       margin-top: 0;
+       color: #333;
+     }
+     .sosmed a{
+      display: block; 
+      margin: 10px 0;
+      color: #555;
+      text-decoration: none;
+     }
+     .sosmed a:hover{
+      color: #007BFF; 
+     }
+     /*Kolom kanan */
+     .kanan{
+       flex:1;
+       padding:30px;
+     }
+     .kanan h2{
+       margin-top: flex:;
+       color: #333;
+     }
+     form{
+       display:flex;
+       flex-direction: column;
+     }
+     label{
+       margin-top: 10px;
+       font-weight: bold;
+       font-size: 14px;
+     }
+     input, textarea{
+      margin-top: 5px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+    button{
+      margin-top: 15px;
+      padding: 10px;
+      border: none;
+      background: #007bff;
+      color: white;
+      font-weight: bold;
+      border-radius: 6px;
+    }
+    button{
+      margin-top: 15px;
+      padding: 10px;
+      border: none;
+      background: #007bff;
+      color: white;
+      font-weight: bold;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    button:hover {
+    background: #0056b3;  
+    }
+    /*Konten*/
+    main{
+      padding: 20px;
+      text-align: center;
+    }
+    footer{
+      background: #0d47a1;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+    /*Responsive hp*/
+    @media (max-widht:768px){
+      .container {
+      flex-direction: column;
+      }
+    .kiri{
+      border-right: none;
+      border-bottom: 1px solid #eee;
+    }
+    </style>
+</head>
+
+<body>
+<header>
+<h1>SMA Negeri 9 Cirebon</h1>
+<p1>Selamat datang di website sekolah kami</p1>
+</header>
+<body>
+ 
+<nav> 
+<a herf="index.html" >home</a>
+<a href="Tentang.html" >Profile </a>
+<a href="Visi-misi.html">Visi-misi</a>
+<a href="Eskul.html">eskul</a>
+<a href="Kontakontak.html" style="color:yellow">kontak</a>
+</nav>
+<main>
+<h1>Hubungi kami</h1>
+<div class="container"
+<!--kolom kiri-->
+  <div class="kiri"
+  <h1>kontak kami</h1>
+  <p>silahkan hubungi atau ikuti sosial media kami</p>
+  <div class="sosmed">
+    <a href="#">📞Telepon:+62 812-3456-7890</a>
+    <a href="#">💌:Info@sekolah.com </a>
+    <a href="#">📍Alamat:Jl.Merdeka No.12</a>
+    <br>
+    <a href="#">🌐Instagram</a>
+    <a href="#">🌐Facebok</a>
+    <a href="#">🌐Youtube</a>
+  </div>
+  </div>
+  
+</div>
+<!--kolom kanan-->
+<div class="kanan"
+<h2>Kirim pesan</h2>
+<form>
+  <Label for="Nama">Nama:</Label>
+  <input type="text"id="nama" name="nama"placeholder="Masukan nama"
+  
+  <Label for="Email">Email:</Label>
+  <input type="Email" id="Email"placeholder="Masukan email"
+  
+  <Label for="Pesan">Pesan</Label>
+  <textarea id="Pesan"Name="Pesan" rows="4"placeholder="Tulis pesan..."</textarea>
+    <button type="submit">kirim</button>
+</form>
+</div>
+</div>
+  </main>
+  <footer>
+    &copy;2025 Sma Negeri 9 Cirebon
+  </footer>
+</body>
+</html>
